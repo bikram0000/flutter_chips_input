@@ -48,7 +48,7 @@ class _TextCursorState extends State<TextCursor>
           width: 2.0,
           color: theme.textSelectionTheme.cursorColor ??
               theme.textSelectionTheme.selectionColor ??
-              theme.primaryColor,
+              theme.colorScheme.primary,
         ),
       ),
     );
